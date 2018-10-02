@@ -39,3 +39,62 @@
     width: 100%;
     object-fit: contain;
 }
+
+.principal{
+    background: url("./images/concierto.jpg");
+    background-position: 0;
+    background-size: cover;
+    height: 40em;
+    border: 0 auto;
+    margin:0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.maxisun{
+    display:inline-flex;
+    font-family: 'Monoton', cursive;
+    font-size: 10em; 
+    
+
+}
+
+.container{
+    display: grid;
+    grid-auto-columns: 33%;
+    grid-auto-rows: 50%;
+}
+
+.container div{
+    background:#f5f5f5;
+    border-radius: 1px;
+}
+
+.feauture1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.feauture2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.feauture3{
+    grid-column: 3;
+    grid-row: 1;
+}
+.feauture4{
+    grid-column: 1;
+    grid-row: 2;
+}
+.feauture5{
+    grid-column: 2;
+    grid-row: 2;
+}
+.feauture6{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+img{
+    height: 20em;
+    width: 19em;
+}
