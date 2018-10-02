@@ -18,6 +18,11 @@
     height: 100%;
 }
 
+.links li a{
+    color: white;
+    text-decoration: none;
+}
+
 .links .logo{
     height: 100px;
     width: 100px;
