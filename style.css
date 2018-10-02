@@ -129,13 +129,44 @@ img{
     border-radius: 50px;
 }
 
+
 .submitarea{
+    padding: 10px;
     background: url("./images/contacus.jpg");
     background-position: 0;
     background-size: cover;
     height: 40em;
     border: 0 auto;
     font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-auto-columns: 50%;
+}
+
+.datos{
+    font-size: 1.5em;
+    display: grid;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.datosboton{
+    margin: 1em 27%;
+    font-family: 'Raleway', sans-serif;
+    border-width: 0;
+    background-color: orange;
+    padding: 0;
+    border-radius: 1em;
+    color:white;   
+}
+
+
+.contactus{
+    padding: 2em;
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 5em;
 }
 
 .socialarea{
@@ -148,11 +179,9 @@ img{
 }
 
 .social{
-    grid-row: 1;
     grid-column: 1;
 }
 
 .moreofus{
-    grid-row: 1;
     grid-column: 2;
 }
