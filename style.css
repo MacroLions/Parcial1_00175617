@@ -53,12 +53,17 @@
     font-family: 'Monoton', cursive;
     font-size: 10em;   
     color:orange;
-    
+    margin: 0em 27%;
 }
 .best{
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
     color:  orange;
+    margin: 0em 40%;
+}
+
+.best i{
+    margin: 0em 50%;
 }
 
 .principal p{
