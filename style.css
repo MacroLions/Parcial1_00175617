@@ -143,7 +143,7 @@ img{
 }
 
 .datos{
-    font-size: 1.5em;
+    font-size: 2em;
     display: grid;
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -163,10 +163,13 @@ img{
 
 
 .contactus{
+    color:white;
+    font-size: 2em;
+    background-color: rgba(245, 245, 245, 0.335);
     padding: 2em;
     grid-row: 1;
     grid-column: 2;
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 .socialarea{
